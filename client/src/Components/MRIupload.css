@@ -1,0 +1,145 @@
+.analysis-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: 20px auto;
+  width: 1000px;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .header-container {
+    background-color: #00053D;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    border-radius: 8px 8px 0 0; /* Optional: if you want the header to have rounded corners on the top */
+  }
+
+  .analysis-card h2 {
+    color: #e43922
+  }
+  
+  .analysis-card p {
+    color: #e43922;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .user-info-form {
+    flex-basis: 50%;
+    padding-right: 20px; /* Add some padding between the form and the image upload section */
+  }
+  
+  .user-info-form .form-group {
+    margin-bottom: 15px; /* Add some space between form fields */
+  }
+  
+  .user-info-form .form-group label {
+    display: block;
+    margin-bottom: 5px; /* Space between label and input */
+  }
+  
+  .user-info-form .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 4px;
+  }
+  
+  .user-info-form .form-group button {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff; /* Primary button color */
+    cursor: pointer;
+  }
+  
+  .image-upload,
+  .results-display {
+    flex-basis: 50%;
+    padding-left: 20px; /* Add some padding between the form and this section */
+  }
+  
+  .image-upload {
+    flex-basis: 50%;
+    text-align: center;
+  }
+  
+  .results-display {
+    flex-basis: 50%;
+    padding: 0 20px;
+  }
+  
+  .result-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .result-value {
+    min-height: 38px; /* Approximate height of input */
+    display: flex;
+    align-items: center;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .user-info-form, .image-preview {
+    flex-basis: 50%;
+    padding: 20px;
+  }
+
+  .image-preview {
+    /* Styles to make the image preview look nice */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00053D;
+  }
+
+  .image-upload-container {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column; /* Stack the children vertically */
+    align-items: center; /* Align children horizontally */
+    padding: 20px;
+  }
+  
+  .image-preview, .image-preview-placeholder {
+    width: 350px;
+    height: 350px;
+    object-fit: cover; /* This will cover the area, potentially cropping the image */
+    margin-bottom: 10px; /* Spacing between image preview and the upload button */
+  }
+  
+  .upload-button {
+    margin-top: 10px;
+  }  
+  
+  .image-preview-placeholder {
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-color: #00053D;
+  }
+  

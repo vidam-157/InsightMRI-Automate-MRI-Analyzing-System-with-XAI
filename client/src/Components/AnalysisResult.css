@@ -1,0 +1,102 @@
+.analysis-result-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: 20px auto;
+  width: 1000px;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.analysis-result-card-header {
+  background-color: #000532;
+  color: #e43922;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.analysis-result-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mri-image, .model-prediction, .heat-map-container {
+  flex-basis: 48%; /* Adjusts width to less than half to fit side by side */
+  margin: 1%; /* Provides a little space between the elements */
+  text-align: center;
+  
+}
+
+.mri-image {
+  height: 350px;
+  width: 350px;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.fetched-data {
+  margin-top: 2px;
+  text-align: center;
+  margin: 25px;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+.model-prediction, .heat-map-container {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.heat-map-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.results-options {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.analysis-actions {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #000532;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+  width: 170px;
+  height: 40px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.model-runs {
+  display: flex;
+}
+
+.tumor {
+  font-weight: bolder;
+  color: #000532;
+  font-size: 2rem;
+}

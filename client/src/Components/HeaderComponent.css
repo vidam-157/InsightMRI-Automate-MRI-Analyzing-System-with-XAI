@@ -1,0 +1,36 @@
+nav {
+  background-color: #00053d;
+  height: auto; /* Height can be auto to accommodate the contents */
+  display: flex;
+  width: 100%;
+  align-content:end;
+  /* align-items: center; */
+  justify-content: flex-end;
+  padding: 10px 20px; /* Adjust padding to your liking */
+}
+
+.user-info {
+  color: #E12B0D;
+  font-family: "Helvetica";
+}
+
+nav .user-info > div {
+  font-size: 18px; /* Adjust size to your liking */
+  line-height: 1.5; /* Adjust line height for better readability */
+}
+
+.pro-pic {
+  display: flex;
+}
+
+.gmail {
+  font-size: 15px;
+  color: #E12B0D;
+}
+
+.pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
